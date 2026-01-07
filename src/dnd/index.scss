@@ -1,0 +1,32 @@
+.dnd-page {
+  width: 100%;
+  height: 50vh;
+  background-color: #ccc;
+  display: flex;
+  justify-content: space-between;
+  .dnd-drag {
+    display: flex;
+    background-color: rgb(149, 176, 188);
+    width: 50%;
+  }
+  .dnd-drop {
+    background-color: black;
+    display: flex;
+    width: 50%;
+    height: 100%;
+    flex-wrap: wrap;
+  }
+  .drag-layer {
+    position: fixed;
+  }
+}
+.card-list {
+  .card {
+    width: 200px;
+    line-height: 60px;
+    padding: 0 20px;
+    border: 1px solid #000;
+    margin: 10px;
+    cursor: move;
+  }
+}
